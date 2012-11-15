@@ -1,6 +1,6 @@
 # Multi::Select
 
-TODO: Write a gem description
+A simple gem to integrate Jquery multi-select js feature
 
 ## Installation
 
@@ -18,7 +18,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Just add in application.js:
+
+    //= require jquery.multi-select.js
+
+In application.css:
+
+    *= require multi-select.css
+
+For more on usage and demos please refer http://loudev.com/
 
 ## Contributing
 
