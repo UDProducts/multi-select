@@ -10,8 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["welkin@udproducts.in"]
   gem.description   = %q{A gem to integrate Jquery multi-select js}
   gem.summary       = %q{Simple integrator of Jquery multi-select js(http://loudev.com/)}
-  gem.homepage      = "http://github.com/udproducts/multi-select"
-
+  gem.homepage      = "https://github.com/udproducts/multi-select"
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
